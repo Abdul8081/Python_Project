@@ -4,6 +4,9 @@ from tkinter import messagebox
 from PIL import Image, ImageTk
 import csv
 
+# here twinkter is the basics  builtin-library for the creating GUI
+# PIL -> Python image Library, it is used for the opening, manipulating and saving
+# various image file formats.
 # Function to read fruits from a CSV file
 def load_fruit_list(filename):
     try:
