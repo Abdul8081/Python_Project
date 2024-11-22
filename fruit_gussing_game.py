@@ -6,7 +6,8 @@ import csv
 
 # here twinkter is the basics  builtin-library for the creating GUI
 # PIL -> Python image Library, it is used for the opening, manipulating and saving
-# various image file formats.
+# various image file formats., Now days, pillow is used for this, mainly for the
+# image processing and graphics design, and automated image
 # Function to read fruits from a CSV file
 def load_fruit_list(filename):
     try:
